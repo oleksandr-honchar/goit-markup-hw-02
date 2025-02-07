@@ -1,7 +1,9 @@
 body {
   font-family: "Roboto", "Raleway", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
   background-color: #ffffff;
 }
@@ -9,6 +11,7 @@ body {
 a {
   font-style: normal;
   text-decoration: none;
+  color: #434455;
 }
 
 ul,
@@ -21,6 +24,11 @@ button {
   background-color: #4d5ae5;
   color: #fff;
   font-weight: 500;
+}
+
+button:hover,
+button:focus {
+  background: #404bbf;
 }
 
 .logo {
@@ -37,17 +45,10 @@ button {
   color: #4d5ae5;
 }
 
+.header-nav-link-studio,
 .header-nav-link {
   font-weight: 500;
-  letter-spacing: 0.02em;
   color: #2e2f42;
-}
-
-.header-address-link {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .hero {
@@ -59,7 +60,6 @@ button {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
-  letter-spacing: 0.02em;
   color: #fff;
 }
 
@@ -77,12 +77,7 @@ button {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   color: #2e2f42;
-}
-.features-list-text {
-  letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .our-team {
@@ -92,43 +87,29 @@ button {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
-  letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
-.our-team-list {
-}
-.our-team-list-item {
-}
+
 .our-team-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
 .our-team-list-text {
-  font-weight: 400;
-  letter-spacing: 0.02em;
   text-align: center;
-  color: #434455;
 }
 
 .portfolio-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.portfolio-list-text {
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
 
-.footer {
+footer {
   background-color: #2e2f42;
   color: #f4f4fd;
 }
@@ -144,7 +125,22 @@ button {
 }
 
 .footer-text {
-  font-weight: 400;
-  letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.header-nav-link-studio:hover,
+.header-nav-link-studio:focus,
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: #404bbf;
+}
+
+.header-nav-link-studio:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+  color: #404bbf;
 }
