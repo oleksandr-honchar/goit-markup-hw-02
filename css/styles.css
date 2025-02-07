@@ -37,6 +37,7 @@ ol {
 .nav-link {
   font-weight: 500;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -52,6 +53,7 @@ ol {
 
 .contacts-link {
   color: #434455;
+  letter-spacing: 0.02em;
 }
 
 button {
@@ -100,6 +102,10 @@ button:focus {
   color: #2e2f42;
 }
 
+.features-list-text {
+  letter-spacing: 0.02em;
+}
+
 .our-team {
   background: #f4f4fd;
 }
@@ -113,7 +119,7 @@ button:focus {
   color: #2e2f42;
 }
 
-.our-team-list {
+.our-team-list-item {
   background-color: #ffffff;
 }
 
@@ -127,6 +133,7 @@ button:focus {
 }
 .our-team-list-text {
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .portfolio-title {
@@ -146,10 +153,15 @@ button:focus {
   color: #2e2f42;
 }
 
+.portfolio-list-text {
+  letter-spacing: 0.02em;
+}
+
 .page-footer {
   background-color: #2e2f42;
 }
 
 .footer-text {
   color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
